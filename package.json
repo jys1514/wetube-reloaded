@@ -1,0 +1,25 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jys1514/wetube-reloaded.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec npx babel-node index.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jys1514/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/jys1514/wetube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.14"
+  }
+}
